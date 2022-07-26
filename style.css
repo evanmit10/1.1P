@@ -1,0 +1,130 @@
+.topnav {
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #3798cc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:  Arial;
+  }
+  
+
+  .topnav a:hover {
+    background-color: white;
+    color: #3798cc;
+  }
+
+  * {box-sizing: border-box}
+
+/* Container */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 1264;
+  height: 500;
+  margin-top:10px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 1264;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family:  Arial;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+  
+
+.image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+  width: 160;
+  height: 150;
+}
+
+p {
+  color: #3798cc;
+  text-align: center;
+  font-family: Arial;
+}
+
+hr {
+  display: block;
+  background-color: #3798cc;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  width:30%;
+}
+
+.p2 {
+  color: #3798cc;
+  text-align: center;
+  font-family: Arial;
+  font-size: 22px;
+}
+
+.image3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+  width: 160;
+  height: 150;
+}
+
+.image4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+  width: 160;
+  height: 150;
+}
+
+.image5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+  width: 160;
+  height: 150;
+}
+
+.responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px;
+  width: 70%;
+  height: 300px;
+}
+
+body {
+  background-color: lightgray;
+}
